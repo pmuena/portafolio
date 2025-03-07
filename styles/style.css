@@ -1,13 +1,3 @@
-:root {
-    --color-primario: #000000;
-    --color-secundario: #F6F6F6;
-    --color-terciario: #22D4FD;
-    --color-hover: #000000;
-    
-    --fuente-Krona: 'Krona One', sans-serif;
-    --fuente-Montserrat: 'Montserrat', sans-serif;
-}
-
 /* Declaración de la primera fuente */
 @font-face {
     font-family: 'Krona One';
@@ -22,6 +12,16 @@
     src: url('./fuentes/montserrat/Montserrat-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+:root {
+    --color-primario: #000000;
+    --color-secundario: #F6F6F6;
+    --color-terciario: #22D4FD;
+    --color-hover: #000000;
+    
+    --fuente-Krona: 'Krona One', sans-serif;
+    --fuente-Montserrat: 'Montserrat', sans-serif;
 }
 
 * {
