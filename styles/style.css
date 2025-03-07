@@ -1,18 +1,4 @@
-/* Declaración de la primera fuente */
-@font-face {
-    font-family: 'Krona One';
-    src: url('./fuentes/krona-one/KronaOne-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Declaración de la segunda fuente */
-@font-face {
-    font-family: 'Montserrat';
-    src: url('./fuentes/montserrat/Montserrat-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --color-primario: #000000;
